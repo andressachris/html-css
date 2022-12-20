@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir essa imagem em vários dispositivos diferentes ou simplesmente aumente e dimunua o tamanho de seu
+        navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagens flexíveis">
+    </picture>
+    
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Snowfall Butterflies - Asher Fulero.mp3" type="audio/mpeg">
+        <source src="midia/Snowfall Butterflies - Asher Fulero.odd" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Snowfall Butterflies - Asher Fulero.mp3"> Clique aqui para baixar o arquivo MP3</a></p><!--Não visualizei o donwload no navegador porque nele aparece o formato de áudio.-->
+        </audio>
+       
+        <h1>Vídeos com HTML5</h1>
+    <h2>Inserindo vídeos hospedados localmente</h2>
+    <p>Este vídeo está hospedado no próprio servidor</p>
+   
+    <video width="560" controls>
+        <source src="midia/Meu-Video.webm.webm" type="video/mp4">
+        <source src="midia/Meu-Video.m4v" type="video/mp4">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>

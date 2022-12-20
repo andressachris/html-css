@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id e em CSS é #
+    em HTMl é class e em CSS é .
+    um id não pode ser usado em vários elementos, nesse caso usamos class (Regra do W3C)
+    Um elemento pode ter mais de um class
+    Um id pode ter um class também
+*/
+body {
+    background-color: rgba(137, 252, 212, 0.726);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(66, 66, 151);
+    color: white;
+
+}
+
+h1 {
+    color: rgb(66, 66, 151);
+}
+
+h2 {
+    color: rgb(84, 131, 173);
+}
+
+.basico {
+    color: rgb(84, 131, 173);
+}
+
+.intermediario {
+    color: rgb(133, 191, 92);
+}
+
+.basico {
+    color: rgb(158, 83, 83);
+}
+
+.destaque {
+    background-color: rgba(255, 255, 1, 0.426);
+    font-style: italic;
+    text-decoration: underline;
+}
