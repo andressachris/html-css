@@ -66,7 +66,7 @@ nav {
 }
 
 nav>a {
-    color: var(--cor5); 
+    color: var(--cor5);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -74,7 +74,7 @@ nav>a {
     transition-duration: 0.5s;
 }
 
-nav > a:hover {
+nav>a:hover {
     background-color: var(--cor2);
     color: var(--cor3);
 }
@@ -168,7 +168,7 @@ aside {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
-   
+
 }
 
 aside>h3 {
