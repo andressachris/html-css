@@ -11,9 +11,9 @@
     --fonte1: 'Sriracha', cursive;
 }
 
-body {
+html, body {
     background-color: white;
-    margin: 0;
+    min-height: 100vh;
 }
 
 header {
@@ -36,15 +36,14 @@ header>p {
     margin: 0;
 }
 
-header>p>a {
+a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-header>p>a:hover {
+a:hover {
     text-decoration: underline;
-    color: white;
 }
 
 section {
@@ -59,6 +58,7 @@ section>p {
 }
 
 .estrofe {
+    background-color: rgba(211, 205, 120, 0.512);
     color: black;
 }
 
@@ -70,11 +70,12 @@ section>p {
 .estrofeimg>p {
     background-color: rgba(0, 0, 0, 0.384);
     display: inline-block;
-    color: white;
     padding: 5px;
 }
 
 .estrofeimg {
+    background-color: rgba(0, 0, 0, 0.447);
+    color: white;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -89,16 +90,5 @@ footer {
     color: white;
     font-size: 20px;
     text-align: center;
-    padding: 7px;
-}
-
-footer>p>a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-footer>p>a:hover {
-    text-decoration: underline;
-    color: white;
+    padding: 10px;
 }
